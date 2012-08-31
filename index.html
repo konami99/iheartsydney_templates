@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<ul data-role="listview" data-theme="a">
+{% for item in feed.entries %}
+<li>
+<h2>
+<a href="{{item.link}}">{{item.title}}</a>
+</h2>
+</li>
+{% endfor %}
+</ul>
+
+{% endblock %}
