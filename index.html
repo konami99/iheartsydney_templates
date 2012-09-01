@@ -6,7 +6,7 @@
 {% for item in feed.entries %}
 <li>
 <h2>
-<a href="{{item.link}}">{{item.title}}</a>
+<a href="/iheartsydney/events/{{ item.link|slice:'46:' }}/">{{item.title}}</a>
 </h2>
 </li>
 {% endfor %}
