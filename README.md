@@ -1,2 +1,1 @@
-iheartsydney_templates
-======================
+Templates for http://www.richardchou.id.au
